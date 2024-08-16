@@ -2,11 +2,8 @@
 
 Livia is a simple web app designed to facilitate the confirmation of attendance on special dates, such as anniversaries.
 
-:::warning 🏗️ Working In Progress
-
-Livia is currently in the planning phase. While we aim to deliver a smooth and reliable experience,  please note that development has not yet begun and features are still being defined.
-
-:::
+> [!NOTE]
+> **🏗️ Working In Progress** - Livia is currently in the planning phase. While we aim to deliver a smooth and reliable experience,  please note that development has not yet begun and features are still being defined.
 
 ## Goals
 
@@ -34,33 +31,34 @@ To use this project effectively, the users will need:
 
 ## Technologies
 
-General
-- TypeScript, Vite, Vinxi
-- Zod
-- Eslint
-- release-it
+### General
 
-Front-end
-- React
-- NextUI
-- Tailwind
-- TanStack Query
-- react-hook-form
-- react-router
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [Remix](https://remix.run/)
+- [Zod](https://zod.dev/)
+- [ESLint](https://eslint.org/)
+- [release-it](https://github.com/release-it/release-it)
+- [TanStack Query](https://tanstack.com/query/v5/docs/framework/react/overview)
 
-Back-end
-- Nitro
-- Auth: Lucia, Oslo, Arctic
+### Front-end
 
-Database
-- PostgreSQL
-- Drizzle
-- drizzle-kit
-- drizzle-zod
+- [React](https://react.dev/)
+- [NextUI](https://nextui.org/docs/guide/introduction)
+- [Tailwind CSS](https://tailwindcss.com/docs/installation)
+- [react-hook-form](https://react-hook-form.com/get-started)
+- [react-use](https://github.com/streamich/react-use)
 
-### Concepts
+### Back-end
 
-- Server functions
-- Streaming SSR
-- Middleware
-- File System Routing
+- [Lucia](https://lucia-auth.com/)
+- [Oslo](https://oslo.js.org/)
+- [Arctic](https://arctic.js.org/)
+
+### Database
+
+- [PostgreSQL](https://www.postgresql.org/)
+- [Drizzle](https://orm.drizzle.team/docs/overview)
+- [drizzle-kit](https://orm.drizzle.team/kit-docs/overview)
+- [drizzle-zod](https://orm.drizzle.team/docs/zod#drizzle-zod)
+- [Postgres.js](https://github.com/porsager/postgres)
