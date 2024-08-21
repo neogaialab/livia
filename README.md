@@ -29,6 +29,10 @@ To use this project effectively, the users will need:
 - **Modern Web Browser**: Compatibility with all major browsers, ensuring a consistent experience across different platforms.
 - **Internet Connection**: A stable internet connection is essential for accessing Livia’s web interface and managing event details and RSVPs.
 
+## Contributing
+
+Check out [CONTRIBUTING](./CONTRIBUTING.md).
+
 ## Technologies
 
 ### General
