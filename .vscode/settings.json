@@ -89,7 +89,8 @@
       "name": "livia",
       "group": "neogaialab",
       "database": "livia",
-      "username": "root"
+      "username": "root",
+      "password": "my_password"
     }
   ]
 }
